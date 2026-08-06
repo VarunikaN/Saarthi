@@ -26,5 +26,33 @@
     "title": "National Health Authority beneficiary resources",
     "url": "https://nha.gov.in/",
     "text": "The National Health Authority publishes official PM-JAY resources and programme information. Users seeking hospitalisation coverage or beneficiary support should rely on current National Health Authority and PM-JAY channels for confirmation."
+  },
+  {
+    "domain": "Benefits",
+    "effectiveDate": "2026-08-06",
+    "title": "National Career Service",
+    "url": "https://www.ncs.gov.in/",
+    "text": "National Career Service provides official employment-related information, including job-search, career guidance, and employer services. Users should review current service requirements and notices on the official portal."
+  },
+  {
+    "domain": "Benefits",
+    "effectiveDate": "2026-08-06",
+    "title": "e-Shram",
+    "url": "https://eshram.gov.in/",
+    "text": "e-Shram provides official information for unorganised workers. Registration, worker records, and related services require verification through the current official e-Shram portal and authorised support channels."
+  },
+  {
+    "domain": "Benefits",
+    "effectiveDate": "2026-08-06",
+    "title": "PM-KISAN",
+    "url": "https://pmkisan.gov.in/",
+    "text": "PM-KISAN publishes official programme information, beneficiary resources, and service notices for eligible farmer households. Current status and programme requirements must be verified through the official PM-KISAN portal."
+  },
+  {
+    "domain": "Benefits",
+    "effectiveDate": "2026-08-06",
+    "title": "DigiLocker",
+    "url": "https://www.digilocker.gov.in/",
+    "text": "DigiLocker is an official digital document wallet and issuer platform. Users should access their documents and issuer records through the official service and confirm document requirements with the requesting organisation."
   }
 ]

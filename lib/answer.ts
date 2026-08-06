@@ -11,7 +11,8 @@ export async function answerQuestion(question: string) {
   const localEvidence: RetrievedSource[] = retrieve(question).map(({ domain, effectiveDate, text, title, url }) => ({ domain, effectiveDate, text, title, url }));
   let evidence = localEvidence;
   try {
-    evidence = await retrieveHosted(question) ?? localEvidence;
+    const hostedEvidence = await retrieveHosted(question);
+    evidence = hostedEvidence && hostedEvidence.length > 0 ? hostedEvidence : localEvidence;
   } catch {
     evidence = localEvidence;
   }
