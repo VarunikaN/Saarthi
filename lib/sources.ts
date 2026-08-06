@@ -1,6 +1,6 @@
 export type Source = {
   id: string;
-  domain: "Scholarships" | "Benefits" | "Health insurance";
+  domain: "Scholarships" | "Education" | "Employment" | "Benefits" | "Identity and documents" | "Finance and tax" | "Housing and food" | "Transport" | "Health insurance";
   effectiveDate: string;
   text: string;
   title: string;
@@ -71,5 +71,101 @@ export const sources: Source[] = [
     title: "DigiLocker",
     url: "https://www.digilocker.gov.in/",
     text: "DigiLocker is an official digital document wallet and issuer platform. Users should access their documents and issuer records through the official service and confirm document requirements with the requesting organisation.",
+  },
+  {
+    id: "ugc",
+    domain: "Education",
+    effectiveDate: "2026-08-06",
+    title: "University Grants Commission",
+    url: "https://www.ugc.gov.in/",
+    text: "The University Grants Commission publishes official higher-education notices, regulations, and institutional information. Students should use current UGC notices and their institution's official communication for academic requirements.",
+  },
+  {
+    id: "aicte",
+    domain: "Education",
+    effectiveDate: "2026-08-06",
+    title: "All India Council for Technical Education",
+    url: "https://www.aicte-india.org/",
+    text: "AICTE publishes official information for technical education, approved institutions, programmes, and notices. Applicants should verify programme and institutional details on current official records.",
+  },
+  {
+    id: "swayam",
+    domain: "Education",
+    effectiveDate: "2026-08-06",
+    title: "SWAYAM",
+    url: "https://swayam.gov.in/",
+    text: "SWAYAM is an official online learning platform with courses from participating institutions. Course availability, credits, examinations, and certificates should be confirmed on the current course page.",
+  },
+  {
+    id: "apprenticeship-india",
+    domain: "Employment",
+    effectiveDate: "2026-08-06",
+    title: "Apprenticeship India",
+    url: "https://www.apprenticeshipindia.gov.in/",
+    text: "Apprenticeship India provides official apprenticeship information, opportunities, and portal services. Candidate eligibility, openings, and application requirements require confirmation on the official portal.",
+  },
+  {
+    id: "epfo",
+    domain: "Employment",
+    effectiveDate: "2026-08-06",
+    title: "Employees' Provident Fund Organisation",
+    url: "https://www.epfindia.gov.in/",
+    text: "EPFO provides official provident-fund member, employer, pension, and claim information. Account status, claims, and service eligibility must be verified through official EPFO channels.",
+  },
+  {
+    id: "esic",
+    domain: "Employment",
+    effectiveDate: "2026-08-06",
+    title: "Employees' State Insurance Corporation",
+    url: "https://www.esic.gov.in/",
+    text: "ESIC publishes official information about employee insurance services and benefits. Insured-person status, service access, and benefit conditions require verification through ESIC.",
+  },
+  {
+    id: "uidai",
+    domain: "Identity and documents",
+    effectiveDate: "2026-08-06",
+    title: "Unique Identification Authority of India",
+    url: "https://uidai.gov.in/",
+    text: "UIDAI provides official Aadhaar enrolment, update, authentication, and help information. Identity details and Aadhaar services should be handled only through official UIDAI channels.",
+  },
+  {
+    id: "pfrda",
+    domain: "Finance and tax",
+    effectiveDate: "2026-08-06",
+    title: "Pension Fund Regulatory and Development Authority",
+    url: "https://www.pfrda.org.in/",
+    text: "PFRDA publishes official pension-system information and regulatory resources. Pension account actions, investment choices, and service requests require confirmation through authorised pension channels.",
+  },
+  {
+    id: "income-tax",
+    domain: "Finance and tax",
+    effectiveDate: "2026-08-06",
+    title: "Income Tax Department e-Filing",
+    url: "https://www.incometax.gov.in/iec/foportal/",
+    text: "The Income Tax Department e-Filing portal provides official tax filing, refund, and taxpayer service information. Tax positions, filing duties, and deadlines require review of current official guidance or qualified tax advice.",
+  },
+  {
+    id: "pmay",
+    domain: "Housing and food",
+    effectiveDate: "2026-08-06",
+    title: "Pradhan Mantri Awas Yojana Urban",
+    url: "https://pmay-urban.gov.in/",
+    text: "Pradhan Mantri Awas Yojana Urban provides official housing-scheme information and notices. Programme availability, beneficiary status, and application conditions must be verified through current official channels.",
+  },
+  {
+    id: "nfsa",
+    domain: "Housing and food",
+    effectiveDate: "2026-08-06",
+    title: "National Food Security Act Portal",
+    url: "https://nfsa.gov.in/",
+    text: "The National Food Security Act portal provides official food-security programme information and state-linked resources. Entitlement and ration-card status require verification through the relevant state authority.",
+  },
+  {
+    id: "parivahan",
+    domain: "Transport",
+    effectiveDate: "2026-08-06",
+    title: "Parivahan Sewa",
+    url: "https://parivahan.gov.in/",
+    text: "Parivahan Sewa provides official vehicle, driving-licence, and transport-service information. Application status, document requirements, fees, and appointments require confirmation through the appropriate official transport service.",
   },
 ];

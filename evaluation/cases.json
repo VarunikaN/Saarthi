@@ -1,5 +1,9 @@
 [
   { "question": "Where can I find scholarship applications?", "source": "national-scholarship-portal" },
   { "question": "How do I search government benefit schemes?", "source": "myscheme" },
-  { "question": "Where can I verify PM-JAY support?", "source": "pmjay" }
+  { "question": "Where can I verify PM-JAY support?", "source": "pmjay" },
+  { "question": "How can an EPFO member find official services?", "source": "epfo" },
+  { "question": "Where can I update Aadhaar information?", "source": "uidai" },
+  { "question": "Where can I find food security resources?", "source": "nfsa" },
+  { "question": "Where can I find apprenticeship opportunities?", "source": "apprenticeship-india" }
 ]

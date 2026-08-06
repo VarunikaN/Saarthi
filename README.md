@@ -41,7 +41,7 @@ Copy `.env.example` to `.env.local` and configure the required values.
 
 Run `supabase/schema.sql` in the Supabase SQL editor. The script creates the source-chunk table, full-text retrieval function, pgvector retrieval function, row-level security policy, public RPC grants, and initial official-source corpus.
 
-The source corpus can be extended through `corpus/official-sources.json`. Vector ingestion requires the service-role key and an embedding provider.
+The source catalog can be extended through `lib/sources.ts`. Vector ingestion requires the service-role key and an embedding provider.
 
 ## Local Development
 
@@ -70,10 +70,17 @@ https://public-service-navigator.vercel.app
 
 ## Official Sources
 
-- National Scholarship Portal: https://scholarships.gov.in/
-- myScheme: https://www.myscheme.gov.in/
-- Ayushman Bharat PM-JAY: https://pmjay.gov.in/
-- National Health Authority: https://nha.gov.in/
+| Area | Portals |
+| --- | --- |
+| Education | National Scholarship Portal, University Grants Commission, AICTE, SWAYAM |
+| Employment | National Career Service, Apprenticeship India, EPFO, ESIC, e-Shram |
+| Identity and documents | UIDAI, DigiLocker |
+| Finance and tax | PFRDA, Income Tax Department e-Filing |
+| Housing and food | PMAY Urban, National Food Security Act Portal |
+| Public services | myScheme, PM-KISAN, Parivahan Sewa |
+| Health | Ayushman Bharat PM-JAY, National Health Authority |
+
+Each portal URL is available in the source ledger on the application home page.
 
 ## Scope and Safety
 

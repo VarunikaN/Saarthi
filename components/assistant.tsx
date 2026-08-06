@@ -9,6 +9,9 @@ const prompts = [
   "Where can I find official scholarship applications?",
   "How do I verify whether I can use PM-JAY services?",
   "Where can I search official government schemes?",
+  "Where can I find EPFO member services?",
+  "Where can I update Aadhaar information?",
+  "Where can I check food-security programme resources?",
 ];
 
 export function Assistant() {

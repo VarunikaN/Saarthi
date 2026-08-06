@@ -1,4 +1,4 @@
-import corpus from "@/corpus/official-sources.json";
+import { sources as corpus } from "@/lib/sources";
 
 const openAiKey = process.env.OPENAI_API_KEY;
 const supabaseUrl = process.env.SUPABASE_URL;
